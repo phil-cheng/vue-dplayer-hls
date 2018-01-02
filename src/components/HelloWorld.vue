@@ -36,10 +36,11 @@ export default {
   },
   mounted() {
     this.player = this.$refs.player.dp;
+   
     // console.log(this.player);
-    var hls = new Hls();
-    hls.loadSource('https://logos-channel.scaleengine.net/logos-channel/live/biblescreen-ad-free/chunklist_w630020335.m3u8');
-    hls.attachMedia(this.player);
+    // var hls = new Hls();
+    // hls.loadSource('https://logos-channel.scaleengine.net/logos-channel/live/biblescreen-ad-free/chunklist_w630020335.m3u8');
+    // hls.attachMedia(this.player);
   }
 }
 </script>
