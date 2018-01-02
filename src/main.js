@@ -6,6 +6,7 @@ import router from './router'
 
 Vue.config.productionTip = false;
 
+//之所以把Hls挂载window对象上，是因为当DPlayer.video.type='hls'时，new DPlayer()对象会用到此对象。
 window.Hls = require('hls.js');
 
 /* eslint-disable no-new */
